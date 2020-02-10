@@ -13,6 +13,8 @@
 		F14D4E7A23F1A69D0050C419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14D4E7923F1A69D0050C419 /* Assets.xcassets */; };
 		F14D4E7D23F1A69D0050C419 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14D4E7C23F1A69D0050C419 /* Preview Assets.xcassets */; };
 		F14D4E8023F1A69D0050C419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14D4E7E23F1A69D0050C419 /* LaunchScreen.storyboard */; };
+		F14D4E8823F1A6DC0050C419 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14D4E8723F1A6DC0050C419 /* LoadingView.swift */; };
+		F14D4E8A23F1A7030050C419 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14D4E8923F1A7030050C419 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F14D4E7C23F1A69D0050C419 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F14D4E7F23F1A69D0050C419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F14D4E8123F1A69D0050C419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14D4E8723F1A6DC0050C419 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F14D4E8923F1A7030050C419 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				F14D4E7323F1A69C0050C419 /* AppDelegate.swift */,
 				F14D4E7523F1A69C0050C419 /* SceneDelegate.swift */,
+				F14D4E8723F1A6DC0050C419 /* LoadingView.swift */,
+				F14D4E8923F1A7030050C419 /* ActivityIndicator.swift */,
 				F14D4E7723F1A69C0050C419 /* ContentView.swift */,
 				F14D4E7923F1A69D0050C419 /* Assets.xcassets */,
 				F14D4E7E23F1A69D0050C419 /* LaunchScreen.storyboard */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F14D4E7423F1A69C0050C419 /* AppDelegate.swift in Sources */,
+				F14D4E8A23F1A7030050C419 /* ActivityIndicator.swift in Sources */,
+				F14D4E8823F1A6DC0050C419 /* LoadingView.swift in Sources */,
 				F14D4E7623F1A69C0050C419 /* SceneDelegate.swift in Sources */,
 				F14D4E7823F1A69C0050C419 /* ContentView.swift in Sources */,
 			);
@@ -286,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Loader/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Y7F7UCN4K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Loader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Loader/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Y7F7UCN4K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Loader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
