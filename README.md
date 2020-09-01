@@ -1,2 +1,2 @@
 # Loaders
-SwiftUI - Activity Indicators
+SwiftUI - Loaders
