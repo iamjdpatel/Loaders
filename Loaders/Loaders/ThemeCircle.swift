@@ -11,7 +11,7 @@ struct ThemeCircle: View {
     var animationAmount: CGFloat
     var delay: Double
     var body: some View {
-        Color.electricPink
+        Color.pink
             .frame(width: 20, height: 20)
             .cornerRadius(10)
             .scaleEffect(animationAmount)

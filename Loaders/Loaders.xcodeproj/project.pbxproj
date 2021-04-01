@@ -11,7 +11,6 @@
 		F119A71624FEC85C003D130D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119A71524FEC85C003D130D /* ContentView.swift */; };
 		F119A71824FEC85D003D130D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F119A71724FEC85D003D130D /* Assets.xcassets */; };
 		F119A71B24FEC85D003D130D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F119A71A24FEC85D003D130D /* Preview Assets.xcassets */; };
-		F119A72324FEC9C0003D130D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119A72224FEC9C0003D130D /* Color.swift */; };
 		F119A72524FECA21003D130D /* ThemeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119A72424FECA21003D130D /* ThemeCircle.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +21,6 @@
 		F119A71724FEC85D003D130D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F119A71A24FEC85D003D130D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F119A71C24FEC85D003D130D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F119A72224FEC9C0003D130D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F119A72424FECA21003D130D /* ThemeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				F119A71324FEC85C003D130D /* LoadersApp.swift */,
-				F119A72224FEC9C0003D130D /* Color.swift */,
 				F119A72424FECA21003D130D /* ThemeCircle.swift */,
 				F119A71524FEC85C003D130D /* ContentView.swift */,
 				F119A71724FEC85D003D130D /* Assets.xcassets */,
@@ -147,7 +144,6 @@
 				F119A71624FEC85C003D130D /* ContentView.swift in Sources */,
 				F119A72524FECA21003D130D /* ThemeCircle.swift in Sources */,
 				F119A71424FEC85C003D130D /* LoadersApp.swift in Sources */,
-				F119A72324FEC9C0003D130D /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

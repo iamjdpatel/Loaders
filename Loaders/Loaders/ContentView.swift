@@ -17,6 +17,20 @@ struct ContentView: View {
                 ThemeCircle(animationAmount: animationAmount, delay: 0.2)
                 ThemeCircle(animationAmount: animationAmount, delay: 0.4)
             }
+            .padding()
+            
+            Rectangle()
+                .fill(Color.orange)
+                .frame(width: 90, height: 90)
+                .cornerRadius(animationAmount == 1 ? 0 : 45)
+                .scaleEffect(animationAmount)
+                .animation(
+                    Animation.easeOut(duration: 2)
+                        .repeatForever(autoreverses: true)
+                )
+            
+            
+            
         }
         
         .onAppear {
